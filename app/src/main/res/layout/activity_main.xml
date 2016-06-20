@@ -38,10 +38,8 @@
             android:text="Toppings"
             android:textAllCaps="true"
             android:layout_gravity="center_horizontal"
-            android:textColor="#000000"
-            android:textStyle="bold"
-            android:textSize="16sp"
-            android:layout_margin="8dp" />
+            android:layout_margin="8dp"
+            android:theme="@style/Titles" />
 
         <CheckBox
             android:layout_width="wrap_content"
@@ -71,9 +69,7 @@
             android:text="Quantity"
             android:textAllCaps="true"
             android:layout_gravity="center_horizontal"
-            android:textColor="#000000"
-            android:textStyle="bold"
-            android:textSize="16sp" />
+            android:theme="@style/Titles" />
 
         <LinearLayout
             android:orientation="horizontal"
